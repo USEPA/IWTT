@@ -12,7 +12,7 @@ The performance data included in IWTT:
 
 ## Repostiroy Structure
 - [app](/app) - source code for the user interface.
-- [db](/db), source code / configuration for the Oracle hosted web service.
+- [db](/db) - source code / configuration for the Oracle hosted web service.
 
 ## Disclaimer
 
