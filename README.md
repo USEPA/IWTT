@@ -10,6 +10,12 @@ The performance data included in IWTT:
  - describes pilot- or full-scale systems treating industrial wastewater 
  - meets specified data quality criteria.
 
+
+<p align="center">
+      <img height="50%" width="50%" src="/docs/img/iwtt-ui-screenshot.png" alt="Screenshot of IWTT Landing Page">
+</p>
+
+
 ## Repostiroy Structure
 - [app](/app) - source code for the user interface.
 - [db](/db) - source code / configuration for the Oracle hosted web service.
