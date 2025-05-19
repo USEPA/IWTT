@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* NOTE: Tailwind CSS Preflight overrides to match EPA styles */
+
+  html .twpf {
+    font-family: "Source Sans Pro Web", sans-serif;
+  }
+
+  .twpf a {
+    color: #005ea2;
+
+    &:visited {
+      color: #54278f;
+    }
+
+    &:hover,
+    &:focus {
+      color: #1a4480;
+    }
+
+    &:active {
+      color: #162e51;
+    }
+  }
+}
+
+@layer components {
+  .iwtt-select {
+    & * {
+      font-size: 0.8125rem;
+      line-height: 1.25;
+    }
+
+    & .iwtt-select__value-container {
+      width: 100%;
+      padding: 4px 8px;
+    }
+
+    & .iwtt-select__control {
+      border-color: #aaa; /* tw-neutral-400 */
+      border-radius: 0;
+      min-height: 32px;
+      background-color: #fff;
+    }
+
+    & .iwtt-select__control--is-focused {
+      z-index: 11;
+    }
+
+    & .iwtt-select__dropdown-indicator,
+    & .iwtt-select__clear-indicator {
+      cursor: pointer;
+      padding: 3px 4px;
+    }
+
+    & .iwtt-select__indicator-separator {
+      margin-top: 3px;
+      margin-bottom: 3px;
+      background-color: #aaa; /* tw-neutral-400 */
+    }
+
+    & .iwtt-select__multi-value {
+      border: 1px solid #c2e0ff;
+      background-color: #ebf5ff;
+    }
+
+    & .iwtt-select__multi-value__remove:hover {
+      cursor: pointer;
+      color: inherit;
+      background-color: #c2e0ff;
+    }
+
+    & .iwtt-select__multi-value--is-disabled {
+      border-color: #d4d4d4; /* tw-neutral-300 */
+      background-color: #f5f5f5; /* tw-neutral-100 */
+    }
+
+    & .iwtt-select__menu {
+      z-index: 10;
+      margin-top: 0;
+      margin-bottom: 0;
+      border: 1px solid #aaa; /* tw-neutral-400 */
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    & .iwtt-select__menu-list {
+      padding: 0;
+    }
+
+    /* prettier-ignore */
+    & .iwtt-select__value-container--is-multi.iwtt-select__value-container--has-value {
+      padding: 3px;
+    }
+
+    & .iwtt-select__placeholder {
+      color: #444; /* tw-neutral-700 */
+    }
+  }
+}

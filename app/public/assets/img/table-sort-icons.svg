@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="32" viewBox="0 0 96 32">
+  <title>IWTT Sortable Table Columns Icons</title>
+
+  <g id="desc">
+    <!-- <rect x="96" width="32" height="32"/> -->
+    <polygon fill="#0071bc" points="80 17 84.04 17 82.02 20.5 80 24 77.98 20.5 75.96 17 80 17"/>
+    <polygon fill="#ccc" points="80 15 75.96 15 77.98 11.5 80 8 82.02 11.5 84.04 15 80 15"/>
+  </g>
+  <g id="asc">
+    <!-- <rect x="64" width="32" height="32"/> -->
+    <polygon fill="#ccc" points="48 17 52.04 17 50.02 20.5 48 24 45.98 20.5 43.96 17 48 17"/>
+    <polygon fill="#0071bc" points="48 15 43.96 15 45.98 11.5 48 8 50.02 11.5 52.04 15 48 15"/>
+  </g>
+  <g id="sortable">
+    <!-- <rect x="32" width="32" height="32"/> -->
+    <polygon fill="#ccc" points="16 17 20.04 17 18.02 20.5 16 24 13.98 20.5 11.96 17 16 17"/>
+    <polygon fill="#ccc" points="16 15 11.96 15 13.98 11.5 16 8 18.02 11.5 20.04 15 16 15"/>
+  </g>
+</svg>
