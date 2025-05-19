@@ -12,7 +12,7 @@ The performance data included in IWTT:
 
 
 <p align="center">
-      <img height="50%" width="50%" src="/docs/img/iwtt-ui-screenshot.png" alt="Screenshot of IWTT Landing Page">
+      <img height="75%" width="75%" src="/docs/img/iwtt-ui-screenshot.png" alt="Screenshot of IWTT Landing Page">
 </p>
 
 
